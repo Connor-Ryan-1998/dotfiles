@@ -23,14 +23,13 @@ This repository includes configuration files for:
 1. **Clone the repository to your home directory**
 
 ```bash
-git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
-cd ~/dotfiles
+git clone https://github.com/Connor-Ryan-1998/dotfiles.git ~/dotfiles
 ```
 
 2. **Run the installation script**
 
 ```bash
-./install.sh
+~/dotfiles/install.sh
 ```
 
 This will create symbolic links from the repository to your home directory.
