@@ -111,7 +111,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # aliases
 alias python='python3.13'
-
+alias gs='git status'
+alias gacm='git add . && git commit -m'
+alias gph='git push origin HEAD'
 # setup plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
