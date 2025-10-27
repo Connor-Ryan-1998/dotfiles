@@ -26,7 +26,17 @@ This repository includes configuration files for:
 git clone https://github.com/Connor-Ryan-1998/dotfiles.git ~/dotfiles
 ```
 
-2. **Run the installation script**
+2. ** Install current dependancies
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.zsh/}/zsh-autosuggestions
+brew install zsh-syntax-highlighting
+```
+
+
+
+
+3. **Run the installation script**
 
 ```bash
 ~/dotfiles/install.sh
